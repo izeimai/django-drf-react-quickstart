@@ -35,7 +35,22 @@ conda install -c anaconda django
 Initial upload stops right before the testing portion because I don't think we use Cypress for the coding project.
 
 
+To actually view the end product:
 
+
+In VSCode, open Terminal outside the project level (up one folder with cd ..)
+
+npm run dev
+
+Then in Anaconda prompt, be on the project level
+
+python manage.py runserver
+
+Open a browser and enter
+
+127.0.0.1:8000
+
+Then you should see a table. Fun!
 
 
 
